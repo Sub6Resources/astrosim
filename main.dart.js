@@ -40098,7 +40098,7 @@ break}d=J
 c=J
 b=B.aN
 s=4
-return A.a4($.nR().acn("simbad-tap-5000-brightest.json"),$async$co)
+return A.a4($.nR().acn("assets/simbad-tap-5000-brightest.json"),$async$co)
 case 4:s=3
 return A.a4(b.dg(0,a2),$async$co)
 case 3:o=d.an(c.az(a2,"data")),n=t.s,m=p.a
