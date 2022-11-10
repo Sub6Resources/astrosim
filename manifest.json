@@ -1,12 +1,12 @@
 {
-    "name": "astrosim",
-    "short_name": "astrosim",
+    "name": "AstroSim",
+    "short_name": "AstroSim",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "#000000",
+    "theme_color": "#450000",
     "description": "A collection of simple astronomical simulations",
-    "orientation": "portrait-primary",
+    "orientation": "landscape-primary",
     "prefer_related_applications": false,
     "icons": [
         {
