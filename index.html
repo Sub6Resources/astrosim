@@ -20,16 +20,50 @@
   <link rel="manifest" href="manifest.json">
   <style>
     html,body {background: #000;}
+    h1 {
+      color: white;
+      font-family: monospace;
+      font-weight: 200;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    #loading-message { font-size: 15px; font-style: italic; }
   </style>
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3249472983';
+    var serviceWorkerVersion = '2391727578';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
+  <h1>Loading<br><span id="loading-message"></span></h1>
+  <script>
+    const messages = [
+      "Preparing the Universe...",
+      "Fusing hydrogen into helium...",
+      "Unfolding mirrors...",
+      "Deriving Kepler's Laws...",
+      "Collecting photons...",
+      "Reaching escape velocity...",
+      "Measuring change in flux...",
+      "Orbiting a black hole...",
+      "Calculating the size of the universe...",
+      "Counting the stars in the Milky Way...",
+      "Waiting for the sun to go down...",
+      "Collimating our telescopes...",
+      "Trying to detect some dark matter...",
+      "Counting neutrinos..."
+    ];
+
+    const randomIndex = Math.floor(Math.random() * messages.length);
+    document.getElementById("loading-message").innerHTML = messages[randomIndex];
+  </script>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
