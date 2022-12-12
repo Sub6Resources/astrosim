@@ -3,10 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "52f8a8bef7bd43fadfa292a58a603829",
-"index.html": "2f1baa0db8dc62c5f5d87e6add9b818b",
-"/": "2f1baa0db8dc62c5f5d87e6add9b818b",
-"main.dart.js": "5bf2f86455953ff626cfddddfeed6081",
+  "version.json": "2375ba5080da77bfb83169c1ca5ed06a",
+"index.html": "07e344872ec983d3e759db776710434e",
+"/": "07e344872ec983d3e759db776710434e",
+"main.dart.js": "feb9b9b29c70982272791438c620c384",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon.png": "853619313b7ccc91cb40ed8001c6bea5",
 "icons/Icon-192.png": "c4fd065fdc770f7bda796639a82dcc67",
@@ -16,8 +16,9 @@ const RESOURCES = {
 "manifest.json": "22aeac8e5c24694827c982ae6f51fbbf",
 "assets/AssetManifest.json": "3eaa5b82794f85dbfb3f9330079692ac",
 "assets/NOTICES": "dbf4619d0b25e3f3b636a4923796202c",
-"assets/FontManifest.json": "d751713988987e9331980363e24189ce",
+"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/shaders/ink_sparkle.frag": "ad7afcbd6b28a0bee6e04faff55cf257",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/simbad-tap-20000-brightest.csv": "d4f81ce63ebe3ddcf05a2c5bef7ee5bb",
 "canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
 "canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
